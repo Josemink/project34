@@ -2470,9 +2470,17 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
+  padding: 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
   color: #fff;
   background-color: #f4623a;
   border-color: #f4623a;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4342,6 +4350,7 @@ input[type=button].btn-block {
 }
 
 .card {
+  border-radius: 20px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4351,6 +4360,10 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 .card > hr {
   margin-right: 0;
@@ -4372,14 +4385,10 @@ input[type=button].btn-block {
 }
 
 .card-body {
-  border-radius: 20px;
+  
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
 .card-title {

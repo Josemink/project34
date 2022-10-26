@@ -75,24 +75,20 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
 
   <main id="main" class=" alert-info">
   		<div id="login-left">
-  			<!-- == You can logo or image herre == -->
-  			<!-- <div class="logo">
-  				<i class="fa fa-poll-h"></i>
-  			</div> -->
   		</div>
   		<div id="login-right">
   			<div class="card col-md-8">
   				<div class="card-body">
   					<form id="login-form" >
   						<div class="form-group">
-  							<label for="username" class="control-label">Username</label>
+  							<label for="username" class="control-label">ชื่อผู้ใช้</label>
   							<input type="text" id="username" name="username" class="form-control">
   						</div>
   						<div class="form-group">
-  							<label for="password" class="control-label">Password</label>
+  							<label for="password" class="control-label">รหัสผ่าน</label>
   							<input type="password" id="password" name="password" class="form-control">
   						</div>
-  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button></center>
+  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">เข้าสู่ระบบ</button></center>
   					</form>
   				</div>
   			</div>

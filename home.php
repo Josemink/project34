@@ -10,11 +10,11 @@
                     					<div class="row">
                     						<div class="col-md-3">
                     							<label for="">เลือกวันที่เช็คอิน</label>
-                    							<input type="text" class="form-control datepicker" name="date_in" autocomplete="off">
+                    							<input type="date" class="form-control datepicker" name="date_in" autocomplete="off">
                     						</div>
                     						<div class="col-md-3">
                     							<label for="">เลือกวันที่เช็คเอาท์</label>
-                    							<input type="text" class="form-control datepicker" name="date_out" autocomplete="off">
+                    							<input type="date" class="form-control datepicker" name="date_out" autocomplete="off">
                     						</div>
                     						
                     						<div class="col-md-3">
@@ -46,7 +46,7 @@
                         <a class="portfolio-box" href="#">
                             <img class="img-fluid" src="assets/img/<?php echo $row['cover_img'] ?>" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-30"><?php echo "$ ".number_format($row['price'],2) ?>คืน</div>
+                                <div class="project-category text-white-30"><?php echo "฿ ".number_format($row['price'],2) ?> /คืน</div>
                                 <div class="project-name"><?php echo $row['name'] ?></div>
                             </div>
                         </a>
