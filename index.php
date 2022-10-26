@@ -31,9 +31,10 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=list">Rooms</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">หน้าหลัก</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=list">ห้องพัก</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=pay">ชำระเงิน</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">การจองของฉัน</a></li>
                     </ul>
                 </div>
             </div>
