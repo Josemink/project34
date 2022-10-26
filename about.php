@@ -12,7 +12,7 @@
         </header>
 
     <section class="page-section">
-        <div class="container">
+        <div class="container"></div>
     <?php echo html_entity_decode($_SESSION['setting_about_content']) ?>        
             
         </div>
