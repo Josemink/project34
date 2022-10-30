@@ -68,18 +68,18 @@
 				while ($row = $qry->fetch_assoc()) :
 
 				?>
-					<div class="card item-rooms mb-3">
+					<div class="card item-rooms mb-5">
 						<div class="card-body">
 							<div class="row">
 								<div class="col-md-5">
 									<img src="assets/img/<?php echo $cat_arr[$row['category_id']]['cover_img'] ?>" alt="">
 								</div>
-								<div class="col-md-5" height="100%">
+								<div class="col-md-7" height="100%">
 									<h3><b><?php echo '฿ ' . number_format($cat_arr[$row['category_id']]['price'], 2) ?></b><span> /คืน</span></h3>
 
 									<h4><b>
 											<?php echo $cat_arr[$row['category_id']]['name'] ?>
-											<button type="button" class="btn btn-link" style="color: #EF774B;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">รายละเอียดเพิ่มเติม</button>
+											<button type="button" class="btn btn-link" style="color: #EF774B; margin-left: 50%;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">รายละเอียดเพิ่มเติม</button>
 									</b></h4>
 									<div class="col-md-10">
 										<p class="card-t"><i class='bx bx-wifi'></i>ฟรี Wi-Fi</p>
