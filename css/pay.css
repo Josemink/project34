@@ -15,14 +15,13 @@ body {
     background-color: #f2f2f2;
     width: 100%;
     height: 750px;
-    margin-left: 100px;
     border-radius: 20px;
     box-shadow: #EF774B;
 }
 .payment {
     margin-top: 50px;
-    margin-left: 100px;
-    width: 1500px;
+    margin-left: 5%;
+    width: 100%;
     height: 500px;
     
 }

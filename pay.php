@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../project34/css/pay.css">
-    <title>Document</title>
+    <title>Payment</title>
 </head>
 <header class="masthead">
             <div class="container h-100">
@@ -37,16 +37,10 @@
                 </div>
                 <div class="col-md-3 ">
                     <form method="POST" class="hstack gap-4 mt-4">
-                        <!-- <label>จำนวนคน</label> -->
                         <label>ผู้ใหญ่</label>
                         <input id="number" type="number" value="" class="form-control" name="1" style="width: 100px;">
                         <label>เด็ก</label>
                         <input id="number" type="number" value="" class="form-control" name="1" style="width: 100px;">
-                    </form>
-                </div>
-                <div class="col-md-2">
-                    <form method="POST" class="hstack gap-4 mt-4">
-                        <label>  ดึงข้อมูลจำนวนยอดสรุปที่ต้องชำระเงิน</label>
                     </form>
                 </div>
             </div>
@@ -96,7 +90,7 @@
                 </div>
                 <div class="grcode">
                     <div class="img">
-                        <img src="../img/QRCode.jpg" alt="">
+                        <img src="../project34//images/QRCode.jpg" alt=""><br>
                     </div>
                     <div class="row">
                         <div class="col-50">

@@ -48,7 +48,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Mitr', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1098,6 +1098,8 @@ pre code {
   }
 
   .col-md-3 {
+    margin-left: 55px;
+    text-align: center;
     flex: 0 0 25%;
     max-width: 25%;
   }
@@ -2470,6 +2472,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
+ margin-left: 50px;
   padding: 10px;
   width: 150px;
   height: 40px;
@@ -4385,7 +4388,6 @@ input[type=button].btn-block {
 }
 
 .card-body {
-  
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
@@ -6179,7 +6181,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #F2F2F0 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10232,4 +10234,25 @@ header.masthead h1 {
     margin: 20px;
     right: 0;
     top: 3.5rem;
+}
+.Villa {
+  max-width: 100;
+  margin-top: 10%;
+  background-color: #E5E7E9;
+  height: 600px;
+
+}
+
+.mapvilla {
+  margin-top: 0.5%;
+  margin-left: 10%;
+}
+.mapvilla iframe{
+  height: 500px;
+  width: 40%;
+}
+
+.nearbyplaces {
+ float: right;
+ margin-right: 20%;
 }
