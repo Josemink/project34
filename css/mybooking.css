@@ -1,0 +1,25 @@
+* {
+    font-family: 'Mitr', sans-serif;
+}
+body{
+    /* padding: 20px !important;
+    margin: 50px 25px 10px 130px !important; */
+   
+}
+h3{
+    margin-left: 150px;
+   padding: 50px;
+}
+#myTable{
+    text-align: center;
+    background-color: #EF774B;
+    border-radius: 10px;
+ 
+}
+.dataTables_wrapper{
+    margin-top: 20px;
+}
+.print{
+    text-align: center;
+}
+
